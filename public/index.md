@@ -5,7 +5,7 @@
 </div>
 
 
-<iframe id="main" src="/static/appeal.html" name="main" width="100%" height="100%" frameborder="no"></iframe>
+<iframe id="main" src="/static/appeal.html" name="main" width="100%" height="600px" frameborder="no"></iframe>
 
 <div style="text-align: center;margin-top: 200px">
 	<i><a href="/">Written by MarkDown</a></i>
@@ -15,6 +15,9 @@
 	 function change_content(loc) {
 		document.getElementById('main').src = loc;
 	}
+	var h = window.innerHeight;
+	
+	document.getElementById("main").style.height = h + "px";
 </script>
 <style type="text/css">
 	a{
