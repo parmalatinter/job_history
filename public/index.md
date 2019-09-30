@@ -33,11 +33,14 @@
         text-align: center;
     }
     .container {
-    	max-width: inherit !important;
+    	max-width: inherit;
     }
     @media print{
 	    .no_print{
 	        display: none;
 	    }
+	    .container {
+    		max-width: 920px;
+    	}
 	}
 </style>
