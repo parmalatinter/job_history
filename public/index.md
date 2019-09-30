@@ -12,23 +12,27 @@
 </div>
 
 <script type="text/javascript">
-	 function change_content(loc) {
-		document.getElementById('main').src = loc;
-	}
-	var h = window.innerHeight;
-	
-	document.getElementById("main").style.height = h + "px";
+     function change_content(loc) {
+        document.getElementById('main').src = loc;
+    }
+    var h = window.innerHeight;
+
+    document.getElementById("main").style.height = h + "px";
 </script>
+
 <style type="text/css">
-	a{
-		cursor: pointer;
-	}
-	#menu{
-		text-align: center;
-		position: absolute;
-		left: 10%;
-	}
-	#main{
-		text-align: center;
-	}
+    a{
+        cursor: pointer;
+    }
+    #menu{
+        text-align: center;
+        position: absolute;
+        left: 10%;
+    }
+    #main{
+        text-align: center;
+    }
+    .container {
+    	max-width: inherit !important;
+    }
 </style>
