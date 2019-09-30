@@ -29,5 +29,5 @@
 最新のトレンドに乗り遅れないよう、Pythonを利用した統計学プログラムを作成したり、自動で動作する簡単なAIも作成しています。
 
 <div style="text-align: center;margin-top: 200px">
-<i>Written by MarkDown</i>
+	<i><a href="/">Written by MarkDown</a></i>
 </div>

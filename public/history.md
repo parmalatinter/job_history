@@ -435,5 +435,5 @@ Redmine
 6人
 
 <div style="text-align: center;margin-top: 200px">
-<i>Written by MarkDown</i>
+	<i><a href="/">Written by MarkDown</a></i>
 </div>
