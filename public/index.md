@@ -5,7 +5,7 @@
 </div>
 
 
-<iframe id="content" src="/static/appeal.html" name="content" width="100%" height="100%" frameborder="no"></iframe>
+<iframe id="main" src="/static/appeal.html" name="main" width="100%" height="100%" frameborder="no"></iframe>
 
 <div style="text-align: center;margin-top: 200px">
 	<i><a href="/">Written by MarkDown</a></i>
@@ -13,7 +13,7 @@
 
 <script type="text/javascript">
 	 function change_content(loc) {
-		document.getElementById('content').src = loc;
+		document.getElementById('main').src = loc;
 	}
 </script>
 <style type="text/css">
@@ -25,7 +25,7 @@
 		position: absolute;
 		left: 10%;
 	}
-	#content{
+	#main{
 		text-align: center;
 	}
 </style>
