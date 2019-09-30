@@ -1,5 +1,5 @@
 
-<div id="menu">
+<div id="menu" class="no_print">
 	<h4><a onclick="change_content('/static/appeal.html')">自己アピール</a></h4>
 	<h4><a onclick="change_content('/static/history.html')">職務経歴書</a></h4>
 </div>
@@ -35,4 +35,9 @@
     .container {
     	max-width: inherit !important;
     }
+    @media print{
+	    .no_print{
+	        display: none;
+	    }
+	}
 </style>
