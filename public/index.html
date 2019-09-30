@@ -14,22 +14,33 @@
     <div class="container">
       <div id="markup">
         <article id="content" class="markdown-body">
-          <iframe id="menu" src="/static/menu.html" name="menu" width="20%" height="100%" frameborder="no"></iframe>
+          <div id="menu">
+    <h4><a onclick="change_content('/static/appeal.html')">自己アピール</a></h4>
+    <h4><a onclick="change_content('/static/history.html')">職務経歴書</a></h4>
+</div>
 
-<iframe id="content" src="/static/appeal.html" name="content" width="100%" height="100%" frameborder="no"></iframe>
+<iframe id="main" src="/static/appeal.html" name="main" width="100%" height="100%" frameborder="no"></iframe>
 
 <div style="text-align: center;margin-top: 200px">
     <i><a href="/">Written by MarkDown</a></i>
 </div>
 
+<script type="text/javascript">
+     function change_content(loc) {
+        document.getElementById('main').src = loc;
+    }
+</script>
+
 <style type="text/css">
+    a{
+        cursor: pointer;
+    }
     #menu{
         text-align: center;
         position: absolute;
-        left: 0;
-        right: 0;
+        left: 10%;
     }
-    #content{
+    #main{
         text-align: center;
     }
 </style>
