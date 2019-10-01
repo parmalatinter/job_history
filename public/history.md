@@ -371,7 +371,7 @@ Pythonを使用し、市場の動向をスクレイピングしてDBに保管す
 #####【ツール・言語】
 Java/
 Shell Script/
-Linux/
+Linux
 
 #####【内容】
 アプリ開発
