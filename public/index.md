@@ -52,7 +52,6 @@
     /*ヘッダーまわりはサイトに合わせて調整してください*/
     header {
       padding:10px;
-      background: skyblue;
     }
 
     #nav-drawer {
