@@ -20,7 +20,8 @@
 
     document.getElementById("main").style.height = h + "px";
 </script>
-
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<script type="text/javascript"></script>
 <style type="text/css">
     body {
         min-width: 100%;
@@ -42,7 +43,7 @@
 	    .container {
     		max-width: 920px;
     	}
-	}
+	  }
     #nav-content > h4{
         text-align: center;
     }
@@ -132,21 +133,21 @@
       transform: translateX(0%);/*中身を表示（右へスライド）*/
       box-shadow: 6px 0 25px rgba(0,0,0,.15);
     }
-    @media screen and (min-width:600px) {
-    #nav-content {
-      -webkit-transform: translateX(0%);
-      transform: translateX(0%);/*中身を表示（右へスライド）*/
-      box-shadow: 6px 0 25px rgba(0,0,0,.15);
-    }
-        .container {
-            max-width: 70%;
-        }
-        header {
-            padding: 0px;
-            background: inherit;
-        }
-        #nav-open{
-            display: none;
-        }
+    @media screen and (min-width:400px) {
+      #nav-content {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);/*中身を表示（右へスライド）*/
+        box-shadow: 6px 0 25px rgba(0,0,0,.15);
+      }
+      .container {
+          max-width: 70%;
+      }
+      header {
+          padding: 0px;
+          background: inherit;
+      }
+      #nav-open{
+          display: none;
+      }
     }
 </style>
