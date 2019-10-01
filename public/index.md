@@ -10,7 +10,7 @@
     </div>
 </header>
 
-<iframe id="main" src="/static/appeal.html" name="main" width="100%" height="600px" frameborder="no"></iframe>
+<iframe id="main" src="/static/appeal.html" name="main" width="100%" height="100%" frameborder="no"></iframe>
 
 <script type="text/javascript">
      function change_content(loc) {
@@ -126,7 +126,7 @@
       display: block;/*カバーを表示*/
       opacity: .5;
     }
-    
+
     #nav-input:checked ~ #nav-content {
       -webkit-transform: translateX(0%);
       transform: translateX(0%);/*中身を表示（右へスライド）*/
