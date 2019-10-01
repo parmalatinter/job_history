@@ -121,7 +121,7 @@
           padding: 20px;
     }
 
-    /*チェックが入ったらもろもろ表示*/
+      /*チェックが入ったらもろもろ表示*/
     #nav-input:checked ~ #nav-close {
       display: block;/*カバーを表示*/
       opacity: .5;
