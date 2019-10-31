@@ -438,7 +438,3 @@ Redmine
 
 #####【チーム人数】
 6人
-
-<div style="text-align: center;margin-top: 200px">
-	<i><a href="/">Written by MarkDown</a></i>
-</div>
