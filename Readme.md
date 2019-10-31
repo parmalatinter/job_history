@@ -1,4 +1,4 @@
-# Heroku Static Provider
+# Job History on Heroku Static Provider
 
 Static site provider for Heroku.
 
