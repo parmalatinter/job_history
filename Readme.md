@@ -7,7 +7,7 @@ Static site provider for Heroku.
 
 You need sign-in or sign-up to Heroku.
 
-    $ git clone https://github.com/nulltask/heroku-static-provider.git my-site
+    $ git clone https://github.com/parmalatinter/job_history.git my-site
     $ cd my-site
     $ heroku create
     $ git push -u heroku master
