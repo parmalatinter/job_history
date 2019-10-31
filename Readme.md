@@ -29,6 +29,9 @@ Add or update files in `/public`.
 	$ heroku config:set USER=username
 	$ heroku config:set PASS=password
 
+### Markdown to HTML
+    Access to "/mdToHtml"
+
 ### Screencast
 
   * https://vimeo.com/71315109
